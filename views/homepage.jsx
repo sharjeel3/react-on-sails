@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from './layout'
+import Login from './login'
 
 export default () => (
     <Layout title="Home">
-        <h1>Hello React Home page </h1>
+        <Login></Login>
     </Layout>
 );
