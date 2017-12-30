@@ -1,0 +1,23 @@
+{
+  "name": "react-on-sails",
+  "version": "1.0.0",
+  "description": "Build applications faster with Sails and React",
+  "main": "",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharjeel3/react-on-sails.git"
+  },
+  "keywords": [
+    "sails",
+    "react"
+  ],
+  "author": "Sharjeel Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharjeel3/react-on-sails/issues"
+  },
+  "homepage": "https://github.com/sharjeel3/react-on-sails#readme"
+}
