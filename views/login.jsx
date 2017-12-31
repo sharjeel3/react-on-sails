@@ -1,6 +1,6 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
-import { withStyles } from 'material-ui/styles';
+import Layout from './layout'
 import Button from 'material-ui/Button';
 
 const styles = theme => ({
@@ -10,6 +10,7 @@ const styles = theme => ({
 })
 
 const Login = () => (
+
     <form method="POST" noValidate={true} autoComplete="off" action="/login">
         <TextField
             id="login"
@@ -21,6 +22,8 @@ const Login = () => (
             Hello World
         </Button>
     </form>
+
+
 );
 
 export default Login

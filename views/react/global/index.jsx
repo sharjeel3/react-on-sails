@@ -1,0 +1,6 @@
+
+const CONSTANTS = {
+    UPDATE_STATUS: 'UPDATE_STATUS'
+}
+
+export default CONSTANTS

@@ -22,6 +22,7 @@ export default class Root extends Component {
                 </head>
                 <body style={style}>
                     {this.props.children}
+                    <script src="js/dist/bundle.js"></script>
                 </body>
             </html>
         )

@@ -120,3 +120,4 @@ nbproject
 **/.idea
 **/node_modules
 
+**/bundle.js
