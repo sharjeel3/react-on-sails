@@ -1,10 +1,12 @@
 import React from 'react';
 import Home from '../../home'
+import MainLogin from '../containers/MainLogin'
 
 const App = () => (
     <div>
-        <Home></Home>
+        <MainLogin></MainLogin>
     </div>
 )
+
 
 export default App

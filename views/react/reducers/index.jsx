@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
 import project from './project'
+import auth from './auth'
 
 const combinedReducers = combineReducers({
-    project
+    project,
+    auth
 })
 
 export default combinedReducers

@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import { renderToString } from 'react-dom/server'
 
 const style = {
-    fontFamily: 'Roboto, sans-serif'
+    fontFamily: 'Roboto, sans-serif',
+    backgroundColor: '#dddddd'
 }
 
 export default class Root extends Component {
