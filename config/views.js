@@ -32,7 +32,7 @@ module.exports.views = {
 
   engine: {
       ext: 'jsx',
-      fn: require('./react-engine').createEngine()
+      fn: require('express-react-views').createEngine()
   },
 
 
