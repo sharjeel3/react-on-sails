@@ -2,7 +2,7 @@ import React from 'react';
 import TextField from 'material-ui/TextField';
 
 import Button from 'material-ui/Button';
-import Grid from 'material-ui/Grid';
+
 import Paper from 'material-ui/Paper';
 
 const style = {
@@ -10,7 +10,6 @@ const style = {
     textAlign: 'left',
     display: 'block',
     maxWidth: 940,
-    marginTop: 200,
     padding: '50px 30px'
 };
 

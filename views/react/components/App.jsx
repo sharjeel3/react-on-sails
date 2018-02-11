@@ -1,9 +1,10 @@
 import React from 'react';
-import Home from '../../home'
+
 import MainLogin from '../containers/MainLogin'
 
 const App = () => (
     <div>
+        <h2>Main App</h2>
         <MainLogin></MainLogin>
     </div>
 )

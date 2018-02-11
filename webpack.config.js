@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 
-var APP_DIR = path.resolve(__dirname, 'views');
+var APP_DIR = path.resolve(__dirname, 'views/react');
 var BUILD_DIR = path.resolve(__dirname, 'assets/js/dist');
 
 var jsxConfig = {

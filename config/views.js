@@ -31,8 +31,8 @@ module.exports.views = {
   ****************************************************************************/
 
   engine: {
-      ext: 'jsx',
-      fn: require('express-react-views').createEngine()
+      ext: 'ejs'
+      //fn: require('express-react-views').createEngine()
   },
 
 
