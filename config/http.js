@@ -36,23 +36,21 @@ module.exports.http = {
   ***************************************************************************/
 
     order: [
-      'startRequestTimer',
+      //'startRequestTimer',
       'cookieParser',
       'session',
       'passportInit',
       'passportSession',
       //'myRequestLogger',
       'bodyParser',
-      'handleBodyParserError',
       'compress',
-      'methodOverride',
       'poweredBy',
       '$custom',
       'router',
       'www',
       'favicon',
-      '404',
-      '500'
+      //'404',
+      //'500'
     ],
 
   /****************************************************************************
